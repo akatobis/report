@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="media.css">
+   <script src="script.js" defer></script>
+</head>
+<body>
+   <main class="info-users">
+      <input class="info-users__search-string" type="text">
+
+      <section class="info-users__users-cards"></section>
+   </main>
+
+   <section class="popup-bg">
+      <div class="popup">
+         <button class="popup__btn-close"><div class="popup__cross"></div></button>
+
+         <h3 class="popup__name"></h3>
+
+         <div class="popup__info-user">
+            <div class="info-user__names">
+               <p class="info-user__name">Телефон:</p>
+               <p class="info-user__name">Почта:</p>
+               <p class="info-user__name">Дата приёма:</p>
+               <p class="info-user__name">Должность:</p>
+               <p class="info-user__name">Подразделение:</p>
+            </div>
+            <div class="info-user__contents">
+               <a class="info-user__content info-user__phone-number" id="phone-number"></a>
+               <a class="info-user__content info-user__email" id="email"></a>
+               <p class="info-user__content" id="hire-date"></p>
+               <p class="info-user__content" id="position-name"></p>
+               <p class="info-user__content" id="department"></p>
+            </div>
+         </div>
+
+         <div class="popup__additional-information">
+            <h4 class="additional-information__title">Дополнительная информация</h4>
+            <p class="additional-information__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+               assumenda minima molestias. Так как дополнительной информации в JSON нет, а адрес нигде не используется
+               закинул его сюда: 963 Montes, Avenue
+            </p>
+         </div>
+      </div>
+   </section>
+</body>
+</html>
